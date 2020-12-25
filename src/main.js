@@ -80,6 +80,7 @@ const Base64 = {
     let r = 0;
     let c1 = 0;
     let c2 = 0;
+    let c3 = 0;
     while (n < e.length) {
       r = e.charCodeAt(n);
       if (r < 128) {
