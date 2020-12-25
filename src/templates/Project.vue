@@ -156,7 +156,7 @@ export default {
   computed: {
     htmlStr() {
       return this.MarkdownIt(
-        this.base64(this.$page.gitHubProject.readme.content)
+        this.atob(this.$page.gitHubProject.readme.content)
       )
         .replace(/&lt;/g, "<")
         .replace(/&gt;/g, ">")
@@ -168,9 +168,6 @@ export default {
   methods: {
     addHttp(url) {
       return (url.match(/https?:\/\//i) ? "" : "https://") + url;
-    },
-    base64(base64) {
-      return window.atob(base64);
     },
   },
 };
