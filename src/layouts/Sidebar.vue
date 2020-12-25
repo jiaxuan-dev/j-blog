@@ -41,7 +41,7 @@ export default {
         {
           title: "博客列表",
           icon: "el-icon-edit-outline",
-          path: "/postList",
+          path: "/postlist",
         },
         {
           title: "开源项目",
