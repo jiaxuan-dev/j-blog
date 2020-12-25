@@ -17,7 +17,7 @@
       <h1 class="projectName">贾轩</h1>
       <h2 class="projectTagline">欢迎来到贾轩的个人博客</h2>
       <a class="btn" href="https://github.com/jiaxuan-dev" target="_blank">GitHub主页</a>
-      <a class="btn" href="" target="_blank">博客源码</a>
+      <a class="btn" href="https://github.com/jiaxuan-dev/j-blog" target="_blank">博客源码</a>
       <div
         v-for="(item, index) in randomIcon"
         :key="'ri' + index"
