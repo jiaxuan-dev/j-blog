@@ -28,7 +28,7 @@
           }}</pre>
         </div>
         <div
-          v-html="lastPost.node.content"
+          v-html="MarkdownIt(lastPost.node.content)"
           class="markdown-body"
           style="padding-top: 20px"
         ></div>
